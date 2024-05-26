@@ -6,16 +6,16 @@
    ```
 2. **Work on the Hotfix :** Make the necessary changes to fix the issue that I am addressing. Once I have made my changes and tested them, commit my changes:
 
-```bash
-git add .
-git commit -m "Fixed typo in recipe instructions"
-```
+   ```bash
+   git add .
+   git commit -m "Fixed typo in recipe instructions"
+   ```
 
 3. **Push the Hotfix Branch :** Push hotfix branch to the remote repository:
 
-```bash
-git push origin hotfix/typo-in-recipe-instructions
-```
+   ```bash
+   git push origin hotfix/typo-in-recipe-instructions
+   ```
 
 4. **Create a Pull Request (PR) :** Go to Git platform and navigate to the repository. Create a new pull request, selecting my hotfix branch as the source branch and the production branch as the target branch.
 
@@ -25,9 +25,9 @@ git push origin hotfix/typo-in-recipe-instructions
 
 7. **Close the Hotfix Branch :** Once hotfix is merged and deployed, i will delete the hotfix branch
 
-```bash
-git branch -d hotfix/typo-in-recipe-instructions
-```
+   ```bash
+   git branch -d hotfix/typo-in-recipe-instructions
+   ```
 
 # Question answer 2:
 
